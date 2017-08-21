@@ -1,0 +1,33 @@
+
+<!--footer class="fixed-bottom bg-dark text-white"-->
+  <footer class="fixed-bottom border">
+  <div class="container">
+    <div class="row pt-3">
+
+
+      <div class="col-md-6">
+        <ul class="list-unstyled">
+          {% if site.github_username %}
+          <li>
+            <a class="text-secondary" href="https://github.com/{{ site.github_username }}">
+              <i class="fa fa-github" aria-hidden="true"></i>
+              {{ site.github_username }}
+            </a>
+          </li>
+          {% endif %}
+          <li>
+            <a class="text-secondary" href="{{ "/feed.xml" | relative_url }}">
+              <i class="fa fa-rss" aria-hidden="true"></i>
+              rss feed
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="col-md-6">
+        <p class="text-justify text-secondary"><small>{{ site.description | escape }}</small></p>
+      </div>
+    </div>
+  </div>
+</footer>
