@@ -2,7 +2,7 @@
   {% assign default_paths = site.pages | map: "path" %}
   {% assign page_paths = site.header_pages | default: default_paths %}
 
-  <nav class="navbar fixed-top">
+  <nav class="navbar navbar-light bg-light fixed-top">
     <!-- Navbar brand -->
     <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 

@@ -1,15 +1,22 @@
 ---
 ---
 
+@import "_variables.scss";
+
 // Custom bootstrap variables must be set or imported *before* bootstrap.
-//@import "bootstrap";
 @import "_bootstrap.scss";
 
-.post-link {
-  color: $gray-900;
-}
 
-.post :hover {
+.nav-link:hover {
+  color: darken($link-color, 15%);
+}
+// posts list
+.post-list {
+  .post-link {
+    color: $gray-900;
+  }
+
+  .post :hover {
 
     color: $white;
     text-decoration: none;
@@ -18,8 +25,13 @@
       color: $white;
       background-color: theme-color("dark");
     }
+  }
 }
-
 .post h2 small {
   font-size: 40%;
+}
+
+// post
+.post a:hover {
+  background-color: $link-hover-bg-color;
 }
