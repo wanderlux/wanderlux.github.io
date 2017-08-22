@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-22T16:05:46+02:00</updated><id>http://localhost:4000/</id><title type="html">wanderlux</title><subtitle>Another site in the web. I plan this to be my personal collection of notes and documentation. Everybody is welcome to dive on those if you are brave enough.
+</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/08/21/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-08-21T15:56:41+02:00</published><updated>2017-08-21T15:56:41+02:00</updated><id>http://localhost:4000/jekyll/update/2017/08/21/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/08/21/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Meeting Dr. Jekyll</title><link href="http://localhost:4000/jekyll/update/2017/08/21/meeting-dr-jekyll.html" rel="alternate" type="text/html" title="Meeting Dr. Jekyll" /><published>2017-08-21T15:56:41+02:00</published><updated>2017-08-21T15:56:41+02:00</updated><id>http://localhost:4000/jekyll/update/2017/08/21/meeting-dr-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/08/21/meeting-dr-jekyll.html">&lt;h2 id=&quot;hello&quot;&gt;Hello.&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/pSpmpxFxFwDpC/giphy.gif&quot; alt=&quot;This is dog&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am a Computer Science engineer that is working as a web and GIS developer. I am interested in web components, mobile applications and everything else.&lt;/p&gt;
+
+&lt;p&gt;I am learning to build a Jekyll site using GitHub pages after some time trying to host a ghost website.&lt;/p&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/1M9fmo1WAFVK0/giphy.gif&quot; alt=&quot;But why&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I became a big fan of &lt;strong&gt;Latex&lt;/strong&gt; and &lt;strong&gt;Sphinx&lt;/strong&gt; for writing papers and documentation. I spread the word on the wonders of Latex in every chance I have. Eventually I found about &lt;a href=&quot;http://ghost.org&quot; title=&quot;Ghost&quot;&gt;Ghost&lt;/a&gt; and discovered &lt;strong&gt;Markdown&lt;/strong&gt; (or &lt;em&gt;the Latex for websites&lt;/em&gt; as I name it in my brain).&lt;/p&gt;
+
+&lt;p&gt;I was thinking for a long time now on finding a way of documenting the knowledge on random technologies I end up learning for whatever reasons. Having a simple website like this meets all my requirements on this matter.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;These are the useful links that I am using in the process (besides the official Jekyll ones):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jmcglone.com/guides/github-pages/&quot; title=&quot;Jonathan McGlone&quot;&gt;Creating and Hosting a Personal Site on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://packetlife.net/media/library/16/Markdown.pdf&quot; title=&quot;Markdown cheatsheet&quot;&gt;Markdown cheatsheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.taniarascia.com/make-a-static-website-with-jekyll/&quot; title=&quot;Tania Rascia&quot;&gt;Make a Static Website with Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;now-what&quot;&gt;Now What&lt;/h2&gt;
+
+&lt;p&gt;Mostly, there are a lot of things I do not like about Jekyll’s default theme. It is simple and clean. But too simple. Probably one of the first things I will learn about Jekyll is theming.&lt;/p&gt;
+
+&lt;h1 id=&quot;my-perfect-jekyll-theme-has&quot;&gt;My perfect Jekyll theme has&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A different date format (dd mm yyyy)&lt;/li&gt;
+  &lt;li&gt;Default centered images&lt;/li&gt;
+  &lt;li&gt;Secondary class for full width images&lt;/li&gt;
+  &lt;li&gt;Third class for not that big images when it comes to GIF images&lt;/li&gt;
+  &lt;li&gt;Emphasized subtitle under the images&lt;/li&gt;
+  &lt;li&gt;Accent colour&lt;/li&gt;
+  &lt;li&gt;Justified text ?&lt;/li&gt;
+  &lt;li&gt;Heading sizes that I am able to understand&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;first-problems-i-found-while-writing-this-short-post&quot;&gt;First problems I found while writing this short post&lt;/h2&gt;
+
+&lt;h1 id=&quot;1-i-do-not-understand-headings&quot;&gt;1. I do not understand headings&lt;/h1&gt;
+
+&lt;p&gt;Why &lt;code class=&quot;highlighter-rouge&quot;&gt;# Now What&lt;/code&gt; renders a 24px font and &lt;code class=&quot;highlighter-rouge&quot;&gt;## My perfect Jekyll theme has&lt;/code&gt; renders a 26px font. I understood it should be the other way around.&lt;/p&gt;
+
+&lt;h1 id=&quot;2-i-am-not-good-at-writing&quot;&gt;2. I am not good at writing&lt;/h1&gt;
+
+&lt;p&gt;Well I already knew this one.&lt;/p&gt;
+
+&lt;h1 id=&quot;3-looks-like-i-have-to-manually-post-fill-time-and-categories&quot;&gt;3. Looks like I have to manually post fill time and categories&lt;/h1&gt;
+
+&lt;p&gt;Does not look it will be cool if I want to update a good bunch of posts or change the name of a category.&lt;/p&gt;</content><author><name></name></author><summary type="html">Hello.</summary></entry></feed>
