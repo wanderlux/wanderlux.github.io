@@ -24,7 +24,7 @@ url: "http://wanderlux.github.io" # the base hostname & protocol for your site, 
 github_username:  wanderlux
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 
