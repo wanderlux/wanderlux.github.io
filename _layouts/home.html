@@ -11,9 +11,9 @@ layout: default
       <div class="post mb-3">
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          <small class="text-muted">{{ post.date | date: "%-d %B %Y" }}</small>
+          <small class="post-meta text-muted">{{ post.date | date: "%B %Y" }}</small>
         </h2>
-        <p class="post-meta text-secondary"></p>
+        <span class="post-excerpt px-2"><small class="text-secondary">{{ post.excerpt }}</small></span>
 
       </div>
     {% endfor %}

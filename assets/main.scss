@@ -10,6 +10,7 @@
 .nav-link:hover {
   color: darken($link-color, 15%);
 }
+
 // posts list
 .post-list {
   .post-link {
@@ -18,20 +19,26 @@
 
   .post :hover {
 
-    color: $white;
-    text-decoration: none;
-
     .post-link {
       color: $white;
       background-color: theme-color("dark");
     }
   }
 }
-.post h2 small {
+.post-list .post h2 small {
   font-size: 40%;
 }
 
+.post-list .post-excerpt {
+
+}
 // post
+.post a {
+  @extend .p-1;
+}
 .post a:hover {
   background-color: $link-hover-bg-color;
+}
+.post strong {
+  color: darken($green, 15%);
 }
