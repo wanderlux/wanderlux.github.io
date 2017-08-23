@@ -1,33 +1,46 @@
+<footer class="site-footer">
 
-<!--footer class="fixed-bottom bg-dark text-white"-->
-  <footer class="fixed-bottom border">
-  <div class="container">
-    <div class="row pt-3">
+  <div class="wrapper">
 
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
-      <div class="col-md-6">
-        <ul class="list-unstyled">
-          {% if site.github_username %}
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
           <li>
-            <a class="text-secondary" href="https://github.com/{{ site.github_username }}">
-              <i class="fa fa-github" aria-hidden="true"></i>
-              {{ site.github_username }}
-            </a>
-          </li>
-          {% endif %}
-          <li>
-            <a class="text-secondary" href="{{ "/feed.xml" | relative_url }}">
-              <i class="fa fa-rss" aria-hidden="true"></i>
-              rss feed
-            </a>
-          </li>
-
+            {% if site.author %}
+              {{ site.author | escape }}
+            {% else %}
+              {{ site.title | escape }}
+            {% endif %}
+            </li>
+            {% if site.email %}
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {% endif %}
         </ul>
       </div>
 
-      <div class="col-md-6">
-        <p class="text-justify text-secondary"><small>{{ site.description | escape }}</small></p>
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description | escape }}</p>
       </div>
     </div>
+
   </div>
+
 </footer>
