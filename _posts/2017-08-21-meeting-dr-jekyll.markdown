@@ -2,7 +2,7 @@
 layout: post
 title:  "Meeting Dr. Jekyll"
 date:   2017-08-21 15:56:41 +0200
-categories: jekyll update
+categories: jekyll
 ---
 ## Hello.
 
