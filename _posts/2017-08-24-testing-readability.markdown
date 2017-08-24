@@ -2,6 +2,7 @@
 layout: post
 title:  "Testing Readability"
 date:   2017-08-24 16:53:41 +0200
+excerpt: "a good bunch of lorem ipsum text"
 categories: jekyll theme test
 ---
 

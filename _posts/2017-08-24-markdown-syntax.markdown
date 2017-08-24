@@ -2,6 +2,7 @@
 layout: post
 title:  "Markdown Syntax"
 date:   2017-08-24 16:53:41 +0200
+excerpt: "This is a test post for the markdown of my own theme"
 categories: jekyll theme test
 ---
 
