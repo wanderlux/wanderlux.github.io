@@ -13,15 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: wanderlux
+title: awesome title
 #email: your-email@example.com
 description: > # this means to ignore newlines until "baseurl:"
-  Another site in the web. I plan this to be my personal collection of notes and documentation.
-  Everybody is welcome to dive on those if you are brave enough.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum dui ut tortor ultricies, a ornare magna consectetur. Integer eu sem posuere, maximus augue a, sagittis diam.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  wanderlux
+github_username:  github
 # Build settings
 markdown: kramdown
 #theme: minima
