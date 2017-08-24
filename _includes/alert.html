@@ -1,0 +1,14 @@
+
+{% if include.type == 'notice' %}
+<div class="alert alert-dark" role="alert">
+  <strong>Notice: </strong> {{ include.text }}
+</div>
+{% elsif include.type == 'tip' %}
+<div class="alert alert-success" role="alert">
+  <strong>Tip: </strong> {{ include.text }}
+</div>
+{% else %}
+<div class="alert alert-{{ include.type }}" role="alert">
+  <strong><span class="text-capitalize">{{ include.type }}:</span> </strong> {{ include.text }}
+</div>
+{% endif %}

@@ -24,14 +24,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur
 
 ## Blockquotes
 
-> Fusce iaculis ipsum nulla, eu varius orci efficitur quis. Vestibulum pellentesque tortor nunc, nec lobortis risus dapibus vitae.
+Fusce iaculis ipsum nulla, eu varius orci efficitur quis. Vestibulum pellentesque tortor nunc, nec lobortis risus dapibus vitae.
+{: .blockquote}
 
-
-> Fusce iaculis ipsum nulla, eu varius orci efficitur quis. Vestibulum pellentesque tortor nunc, nec lobortis risus dapibus vitae.
->
-> > Sed a quam cursus, pretium odio nec, lobortis quam. Etiam vitae lorem massa. Integer cursus magna et egestas pellentesque.
-> >
-> > > Cras suscipit, odio eget ultricies finibus, eros nunc sagittis mauris, id ultrices ex nunc sit amet orci.
 
 ## Lists
 
@@ -70,6 +65,15 @@ Illustrated with C hello world:
       printf("Hello world!");
     }
 ```
+
+## Notices, warnings, dangers and tips
+
+You can stand out important information of different kinds using an include with some bootstrap classes
+
+{% include alert.html type="notice" text="This is a notice" %}
+{% include alert.html type="warning" text="This is a warning" %}
+{% include alert.html type="danger" text="This is a danger" %}
+{% include alert.html type="tip" text="This is a tip" %}
 
 ## KBD
 
