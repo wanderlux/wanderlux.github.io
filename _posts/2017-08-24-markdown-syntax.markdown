@@ -70,3 +70,13 @@ Illustrated with C hello world:
       printf("Hello world!");
     }
 ```
+
+## KBD
+
+You can also use `<kbd>` tag for keyboard buttons.
+```
+<kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>
+```
+<kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>
+
+Credit to https://taylantatli.github.io/Moon/markdown-syntax/

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-24T17:24:53+02:00</updated><id>http://localhost:4000/</id><title type="html">awesome title</title><subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum dui ut tortor ultricies, a ornare magna consectetur. Integer eu sem posuere, maximus augue a, sagittis diam.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-24T18:02:02+02:00</updated><id>http://localhost:4000/</id><title type="html">awesome title</title><subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum dui ut tortor ultricies, a ornare magna consectetur. Integer eu sem posuere, maximus augue a, sagittis diam.
 </subtitle><entry><title type="html">Testing Readability</title><link href="http://localhost:4000/jekyll/theme/test/2017/08/24/testing-readability.html" rel="alternate" type="text/html" title="Testing Readability" /><published>2017-08-24T16:53:41+02:00</published><updated>2017-08-24T16:53:41+02:00</updated><id>http://localhost:4000/jekyll/theme/test/2017/08/24/testing-readability</id><content type="html" xml:base="http://localhost:4000/jekyll/theme/test/2017/08/24/testing-readability.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur vehicula. Sed quis laoreet lacus, ac rutrum est. Cras quam sem, scelerisque a justo at, varius mollis nisi. Nullam pellentesque sapien ut est tincidunt, vel pharetra est iaculis. Nullam vehicula sed tellus scelerisque euismod. Integer vulputate lectus at purus tempus tincidunt. Morbi sapien orci, commodo quis diam at, fermentum lobortis erat. Donec mauris sapien, maximus id ligula non, finibus placerat diam. Vestibulum interdum ut justo eget rhoncus. Vestibulum vitae urna dolor.&lt;/p&gt;
 
 &lt;p&gt;Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas turpis diam, varius ac odio at, consectetur vestibulum mauris. Fusce iaculis ipsum nulla, eu varius orci efficitur quis. Vestibulum pellentesque tortor nunc, nec lobortis risus dapibus vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mauris a dui maximus pellentesque. Nunc fringilla id magna quis tincidunt. Sed a quam cursus, pretium odio nec, lobortis quam. Etiam vitae lorem massa. Integer cursus magna et egestas pellentesque. Nam eu mattis ex, ac blandit mi. Sed accumsan dui diam, ut mollis elit fringilla gravida. Duis egestas quam non viverra vulputate. Integer tincidunt imperdiet metus eget pellentesque. Cras suscipit, odio eget ultricies finibus, eros nunc sagittis mauris, id ultrices ex nunc sit amet orci.&lt;/p&gt;
@@ -86,4 +86,14 @@
       printf(&quot;Hello world!&quot;);
     }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">This is a test post for the markdown of my own theme</summary></entry></feed>
+&lt;/div&gt;
+
+&lt;h2 id=&quot;kbd&quot;&gt;KBD&lt;/h2&gt;
+
+&lt;p&gt;You can also use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;kbd&amp;gt;&lt;/code&gt; tag for keyboard buttons.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;kbd&amp;gt;W&amp;lt;/kbd&amp;gt;&amp;lt;kbd&amp;gt;A&amp;lt;/kbd&amp;gt;&amp;lt;kbd&amp;gt;S&amp;lt;/kbd&amp;gt;&amp;lt;kbd&amp;gt;D&amp;lt;/kbd&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;kbd&gt;W&lt;/kbd&gt;&lt;kbd&gt;A&lt;/kbd&gt;&lt;kbd&gt;S&lt;/kbd&gt;&lt;kbd&gt;D&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;Credit to https://taylantatli.github.io/Moon/markdown-syntax/&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a test post for the markdown of my own theme</summary></entry></feed>
