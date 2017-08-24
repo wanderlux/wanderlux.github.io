@@ -1,11 +1,12 @@
 ---
 ---
 
+//import pygments
+@import "dark.css";
 @import "_variables.scss";
 
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "_bootstrap.scss";
-
 
 .nav-link:hover {
   color: darken($link-color, 15%);

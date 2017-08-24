@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-24T18:40:12+02:00</updated><id>http://localhost:4000/</id><title type="html">awesome title</title><subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum dui ut tortor ultricies, a ornare magna consectetur. Integer eu sem posuere, maximus augue a, sagittis diam.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-24T20:22:13+02:00</updated><id>http://localhost:4000/</id><title type="html">awesome title</title><subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum dui ut tortor ultricies, a ornare magna consectetur. Integer eu sem posuere, maximus augue a, sagittis diam.
 </subtitle><entry><title type="html">Testing Readability</title><link href="http://localhost:4000/jekyll/theme/test/2017/08/24/testing-readability.html" rel="alternate" type="text/html" title="Testing Readability" /><published>2017-08-24T16:53:41+02:00</published><updated>2017-08-24T16:53:41+02:00</updated><id>http://localhost:4000/jekyll/theme/test/2017/08/24/testing-readability</id><content type="html" xml:base="http://localhost:4000/jekyll/theme/test/2017/08/24/testing-readability.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur vehicula. Sed quis laoreet lacus, ac rutrum est. Cras quam sem, scelerisque a justo at, varius mollis nisi. Nullam pellentesque sapien ut est tincidunt, vel pharetra est iaculis. Nullam vehicula sed tellus scelerisque euismod. Integer vulputate lectus at purus tempus tincidunt. Morbi sapien orci, commodo quis diam at, fermentum lobortis erat. Donec mauris sapien, maximus id ligula non, finibus placerat diam. Vestibulum interdum ut justo eget rhoncus. Vestibulum vitae urna dolor.&lt;/p&gt;
 
 &lt;p&gt;Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas turpis diam, varius ac odio at, consectetur vestibulum mauris. Fusce iaculis ipsum nulla, eu varius orci efficitur quis. Vestibulum pellentesque tortor nunc, nec lobortis risus dapibus vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mauris a dui maximus pellentesque. Nunc fringilla id magna quis tincidunt. Sed a quam cursus, pretium odio nec, lobortis quam. Etiam vitae lorem massa. Integer cursus magna et egestas pellentesque. Nam eu mattis ex, ac blandit mi. Sed accumsan dui diam, ut mollis elit fringilla gravida. Duis egestas quam non viverra vulputate. Integer tincidunt imperdiet metus eget pellentesque. Cras suscipit, odio eget ultricies finibus, eros nunc sagittis mauris, id ultrices ex nunc sit amet orci.&lt;/p&gt;
@@ -64,15 +64,25 @@
 
 &lt;h4 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;/h4&gt;
 
-&lt;p&gt;Illustrated with C hello world:&lt;/p&gt;
+&lt;p&gt;Illustrated with C hello world, using Rouge and github&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    #include &amp;lt;stdio.h&amp;gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;  &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello world!&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-    void main() {
-      printf(&quot;Hello world!&quot;);
-    }
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;HTML&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;HEAD&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;TITLE&amp;gt;&lt;/span&gt;Hello, World Page!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/TITLE&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/HEAD&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;BODY&amp;gt;&lt;/span&gt;
+    Hello, World!
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/BODY&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/HTML&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;notices-warnings-dangers-and-tips&quot;&gt;Notices, warnings, dangers and tips&lt;/h2&gt;
 

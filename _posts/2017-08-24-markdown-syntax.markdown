@@ -57,15 +57,32 @@ The library you need for basic input and output in c is `stdio.h`. Also, you can
 
 #### Code Blocks
 
-Illustrated with C hello world:
+Illustrated with C hello world, using Rouge and github
 
-```
-    #include <stdio.h>
+{% highlight c %}
+  #include <stdio.h>
 
-    void main() {
-      printf("Hello world!");
-    }
-```
+  void main() {
+    printf("Hello world!\n");
+  }
+
+{% endhighlight %}
+
+{% highlight html %}
+<HTML>
+  <HEAD>
+    <TITLE>Hello, World Page!</TITLE>
+  </HEAD>
+
+  <BODY>
+    Hello, World!
+    </BODY>
+</HTML>
+{% endhighlight %}
+
+{% highlight python %}
+  print "Hello World";
+{% endhighlight %}
 
 ## Notices, warnings, dangers and tips
 
