@@ -25,8 +25,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur
 
 ## Blockquotes
 
-Fusce iaculis ipsum nulla, eu varius orci efficitur quis. Vestibulum pellentesque tortor nunc, nec lobortis risus dapibus vitae.
-{: .blockquote}
+Styled with **Bootstrap 4** classes. You can provide an author or a source, both or only a quote.
+
+{% include blockquote.html quote="Fusce iaculis ipsum nulla, eu varius orci efficitur quis. Vestibulum pellentesque tortor nunc, nec lobortis risus dapibus vitae." %}
+
+{% include blockquote.html
+  quote="Fusce iaculis ipsum nulla, eu varius orci efficitur quis. Vestibulum pellentesque tortor nunc, nec lobortis risus dapibus vitae."
+  author="Someone famous"
+  %}
+
+{% include blockquote.html  
+  quote="Fusce iaculis ipsum nulla, eu varius orci efficitur quis. Vestibulum pellentesque tortor nunc, nec lobortis risus dapibus vitae."
+  source="Source Title"
+  %}
+
+{% include blockquote.html  
+  quote="Fusce iaculis ipsum nulla, eu varius orci efficitur quis. Vestibulum pellentesque tortor nunc, nec lobortis risus dapibus vitae."
+  author="Someone famous"
+  source="Source Title"
+  %}
+
 
 
 ## Lists
