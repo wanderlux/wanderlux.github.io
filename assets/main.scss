@@ -8,8 +8,18 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "_bootstrap.scss";
 
+body {
+  overflow-x: hidden;
+}
+
 .nav-link:hover {
   color: darken($link-color, 15%);
+}
+
+img[src$="#full"] {
+    
+    margin-left: calc( -50vw + 50% );
+    max-width: 100vw;
 }
 
 // posts list
@@ -47,6 +57,7 @@
 // markdown syntax
 .post-content {
   text-align: justify;
+  max-width: 100vw;
 }
 /*
 blockquote {

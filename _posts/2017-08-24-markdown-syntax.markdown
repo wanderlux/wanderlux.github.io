@@ -47,16 +47,22 @@ Styled with **Bootstrap 4** classes. You can provide an author or a source, both
 
 ## Images
 
+If you want to add a centered footer to the image you can use the `image` include.
+
 {% include images.html
   src="https://media.stsci.edu/uploads/image/display_image/3999/low_STSCI-H-p1711c-d-1280x720.png"
   alt="Orion Nebula"
   %}
 
-  {% include images.html
-    src="http://imgsrc.hubblesite.org/hvi/uploads/image_file/image_attachment/29959/STSCI-H-p1711c-m-2000x1333.png"
-    alt="Orion Nebula"
-    fullbleed="true"
-    %}
+If you add `#full` to the end of the image url it will display in full bleed. This is implemented with a CSS class, meaning you can use it both with markdown and with the provided include.
+
+![Bubble Nebula](http://imgsrc.hubblesite.org/hvi/uploads/image_file/image_attachment/28735/xlarge_web.jpg#full)
+
+You can combine both for a full bleed image and a footer.
+{% include images.html
+  src="http://imgsrc.hubblesite.org/hvi/uploads/image_file/image_attachment/27624/xlarge_web.jpg#full"
+  alt="Spiral Galaxy NGC 6503"
+  %}
 
 ## Lists
 
