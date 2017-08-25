@@ -21,7 +21,9 @@ Below are the HTML headings:
 
 ## Body text
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur vehicula. Sed quis laoreet lacus, ac rutrum est. Cras quam sem, scelerisque a justo at, varius mollis nisi. Nullam pellentesque sapien ut est tincidunt, vel pharetra est iaculis. Nullam vehicula sed tellus scelerisque euismod. Integer vulputate lectus at purus tempus tincidunt. Morbi sapien orci, commodo quis diam at, fermentum lobortis erat. Donec mauris sapien, maximus id ligula non, finibus placerat diam. Vestibulum interdum ut justo eget rhoncus. Vestibulum vitae urna dolor.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta, felis nec imperdiet suscipit, leo mi finibus eros, in tempor elit nunc eget metus. Praesent eu libero porta, consectetur mi non, ullamcorper tortor. Integer sit amet nulla at metus suscipit mollis a eu leo. Praesent lacinia augue non venenatis feugiat. Etiam rutrum augue rhoncus ligula hendrerit pulvinar. Quisque sagittis urna vitae enim posuere hendrerit. Maecenas eleifend sed magna in maximus. Cras porttitor ultrices felis, sed porta metus pharetra eu. Nullam scelerisque, arcu eu pulvinar aliquet, mi metus mattis dui, et lobortis ante ligula ut dui. Sed ac ultrices nibh, vitae porttitor leo. Sed condimentum, urna sit amet mattis vulputate, purus mi interdum purus, ut lobortis velit sapien non velit. Morbi in placerat arcu, ut aliquam elit. Curabitur ac enim nec nisi vehicula volutpat.
+
+Etiam est elit, tempor sed ullamcorper ac, posuere vel risus. Nullam ut aliquet orci. Pellentesque lacinia finibus elit ut varius. Quisque lacus lectus, porttitor sit amet metus sed, rutrum sollicitudin nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam viverra auctor felis, eu porttitor nisl bibendum sit amet. Proin id justo velit. Aliquam sit amet nibh neque. In semper, sapien ut vestibulum dictum, odio nisi porttitor velit, vitae pretium dolor erat at nisi. Sed eu euismod lorem, eget sodales tellus.
 
 ## Blockquotes
 
@@ -78,11 +80,11 @@ You can combine both for a full bleed image and a footer.
 
 ## Emphasis
 
-Sed faucibus orci quam, eu ultrices lectus fringilla sed. Sed vitae consectetur urna, *consectetur* dignissim turpis. Nunc hendrerit, leo non malesuada lobortis, tortor leo feugiat orci, ac molestie urna augue non augue. Vestibulum **condimentum ligula** vitae nibh dignissim, scelerisque tristique enim placerat. Vivamus eleifend felis purus. Nam quis cursus dui. Praesent non iaculis est, aliquet molestie nisi. Quisque eu lorem sed diam interdum ullamcorper. Etiam porttitor *effi*citur arcu congue commodo. Duis ligula nisl, pellentesque in feugiat quis, pla**cerat** commodo magna. Donec placerat maximus ligula, eget tempor felis porta eu. Proin ornare purus quis nibh accumsan, sed hendrerit purus commodo. Duis vel scelerisque diam. Nulla vel ultrices libero.
+Sed faucibus orci quam, eu ultrices lectus fringilla sed. Sed vitae consectetur urna, *consectetur* dignissim turpis. Nunc hendrerit, leo non malesuada lobortis, tortor leo feugiat orci, ac molestie urna augue non augue. Vestibulum **condimentum ligula** vitae nibh dignissim, scelerisque tristique enim placerat. Vivamus eleifend felis purus. Nam quis cursus dui. Praesent non iaculis est, aliquet molestie nisi. Quisque eu lorem sed diam interdum ullamcorper. Etiam porttitor efficitur arcu congue **commodo**. Duis ligula nisl, pellentesque in feugiat quis, placerat commodo magna. Donec placerat maximus ligula, eget tempor felis porta eu. Proin ornare purus quis *nibh accumsan*, sed hendrerit purus commodo. *Duis vel scelerisque diam*. Nulla vel ultrices libero.
 
 ## Links
 
-[an example link](htps://tosomewhere.net)
+All links have the same [look](htps://tosomewhere.net), visited or not. There is an [effect](htps://tosomewhere.net) when you hover them.
 
 ## Code
 
@@ -119,7 +121,7 @@ Illustrated with C hello world, using Rouge and github
   print "Hello World";
 {% endhighlight %}
 
-## Notices, warnings, dangers and tips
+## Helpers
 
 You can stand out important information of different kinds using an include with some bootstrap classes
 
@@ -131,9 +133,11 @@ You can stand out important information of different kinds using an include with
 ## KBD
 
 You can also use `<kbd>` tag for keyboard buttons.
-```
+
+{% highlight html %}
 <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>
-```
+{% endhighlight %}
+
 <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>
 
-Credit to https://taylantatli.github.io/Moon/markdown-syntax/
+Credit to [taylantatli](https://taylantatli.github.io/Moon/markdown-syntax/)
