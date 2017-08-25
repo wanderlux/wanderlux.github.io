@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-25T09:25:59+02:00</updated><id>http://localhost:4000/</id><title type="html">awesome title</title><subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum dui ut tortor ultricies, a ornare magna consectetur. Integer eu sem posuere, maximus augue a, sagittis diam.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-25T11:41:56+02:00</updated><id>http://localhost:4000/</id><title type="html">awesome title</title><subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum dui ut tortor ultricies, a ornare magna consectetur. Integer eu sem posuere, maximus augue a, sagittis diam.
 </subtitle><entry><title type="html">Testing Readability</title><link href="http://localhost:4000/jekyll/theme/test/2017/08/24/testing-readability.html" rel="alternate" type="text/html" title="Testing Readability" /><published>2017-08-24T16:53:41+02:00</published><updated>2017-08-24T16:53:41+02:00</updated><id>http://localhost:4000/jekyll/theme/test/2017/08/24/testing-readability</id><content type="html" xml:base="http://localhost:4000/jekyll/theme/test/2017/08/24/testing-readability.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis efficitur vehicula. Sed quis laoreet lacus, ac rutrum est. Cras quam sem, scelerisque a justo at, varius mollis nisi. Nullam pellentesque sapien ut est tincidunt, vel pharetra est iaculis. Nullam vehicula sed tellus scelerisque euismod. Integer vulputate lectus at purus tempus tincidunt. Morbi sapien orci, commodo quis diam at, fermentum lobortis erat. Donec mauris sapien, maximus id ligula non, finibus placerat diam. Vestibulum interdum ut justo eget rhoncus. Vestibulum vitae urna dolor.&lt;/p&gt;
 
 &lt;p&gt;Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas turpis diam, varius ac odio at, consectetur vestibulum mauris. Fusce iaculis ipsum nulla, eu varius orci efficitur quis. Vestibulum pellentesque tortor nunc, nec lobortis risus dapibus vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mauris a dui maximus pellentesque. Nunc fringilla id magna quis tincidunt. Sed a quam cursus, pretium odio nec, lobortis quam. Etiam vitae lorem massa. Integer cursus magna et egestas pellentesque. Nam eu mattis ex, ac blandit mi. Sed accumsan dui diam, ut mollis elit fringilla gravida. Duis egestas quam non viverra vulputate. Integer tincidunt imperdiet metus eget pellentesque. Cras suscipit, odio eget ultricies finibus, eros nunc sagittis mauris, id ultrices ex nunc sit amet orci.&lt;/p&gt;
@@ -63,6 +63,17 @@
   &lt;/footer&gt;
   
 &lt;/blockquote&gt;
+
+&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
+
+&lt;p class=&quot;text-center text-secondary&quot;&gt;
+    &lt;img src=&quot;https://media.stsci.edu/uploads/image/display_image/3999/low_STSCI-H-p1711c-d-1280x720.png&quot; alt=&quot;Orion Nebula&quot; /&gt;
+    &lt;span style=&quot;display: block&quot;&gt;&lt;em&gt;Orion Nebula&lt;/em&gt;&lt;/span&gt;
+  &lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;
+  &lt;img style=&quot;max-width: none; width: 100vw; margin: auto&quot; src=&quot;http://imgsrc.hubblesite.org/hvi/uploads/image_file/image_attachment/29959/STSCI-H-p1711c-m-2000x1333.png&quot; alt=&quot;Orion Nebula&quot; /&gt;
+&lt;/p&gt;
 
 &lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
 

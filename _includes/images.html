@@ -1,0 +1,10 @@
+{% if include.fullbleed == 'true' %}
+<p class="text-center">
+  <img style="max-width: none; width: 100vw; margin: auto" src="{{ include.src }}" alt="{{ include.alt }}">
+</p>
+{% else %}
+  <p class="text-center text-secondary">
+    <img src="{{ include.src }}" alt="{{ include.alt }}">
+    <span style="display: block"><em>{{ include.alt }}</em></span>
+  </p>
+{% endif%}

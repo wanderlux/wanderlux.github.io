@@ -45,7 +45,18 @@ Styled with **Bootstrap 4** classes. You can provide an author or a source, both
   source="Source Title"
   %}
 
+## Images
 
+{% include images.html
+  src="https://media.stsci.edu/uploads/image/display_image/3999/low_STSCI-H-p1711c-d-1280x720.png"
+  alt="Orion Nebula"
+  %}
+
+  {% include images.html
+    src="http://imgsrc.hubblesite.org/hvi/uploads/image_file/image_attachment/29959/STSCI-H-p1711c-m-2000x1333.png"
+    alt="Orion Nebula"
+    fullbleed="true"
+    %}
 
 ## Lists
 
