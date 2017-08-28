@@ -3,9 +3,17 @@
   <footer class="border bg-light">
   <div class="container">
     <div class="row pt-3">
-
-
-      <div class="col-md-6">
+      <hr>
+      Made with <a href="https://jekyllrb.com/"> Jekyll </a> by <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
+<div class="pagination">
+  {% if page.next.url %}
+     <a href="{{ page.next.url | prepend: site.url }}" class="left arrow">&#8592;</a>
+   {% endif %}
+   {% if page.previous.url %}
+     <a href="{{ page.previous.url | prepend: site.url }}" class="right arrow">&#8594;</a>
+   {% endif %}
+</div>
+      <!--div class="col-md-6">
         <ul class="list-unstyled">
           {% if site.github_username %}
           <li>
@@ -27,7 +35,7 @@
 
       <div class="col-md-6">
         <p class="text-justify text-secondary"><small>{{ site.description | escape }}</small></p>
-      </div>
+      </div-->
     </div>
   </div>
 </footer>

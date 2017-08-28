@@ -24,10 +24,11 @@ github_username:  github
 # Build settings
 markdown: kramdown
 highlighter: rouge
-
+paginate: 10
 #theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
