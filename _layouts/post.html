@@ -11,18 +11,14 @@ layout: default
       </time>
     </p>
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <!--time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time-->
+    <div class="post-meta">
       {% if page.author %}
         <em>Written by</em> <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
       {% endif %}
       {% if page.excerpt %}
-      <p class="text-secondary">{{ page.excerpt }}</p>
+      <div class="text-secondary text-uppercase">{{ page.excerpt }}</div>
       {% endif %}
-    </p>
+    </div>
 
   </header>
 
